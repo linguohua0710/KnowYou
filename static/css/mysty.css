@@ -141,7 +141,7 @@ a {
 }
 
 .widget {
-    margin: 15px 35px 10px 10px;
+    margin: 15px 0 10px 25px;
 }
 
 .sidebar .widget {
@@ -339,14 +339,14 @@ footer.ending {
 }
 
 .fat {
-    width: 1030px;
+    width: 100%;
     margin: auto;
     padding: 20px 0;
     overflow: hidden;
 }
 
 .partner {
-    width: 120px;
+    width: 130px;
     border-right: #000 1px solid;
 }
 
@@ -356,7 +356,7 @@ footer section {
 }
 
 .links {
-    width: 600px;
+    width: 400px;
     margin-left: 40px;
 }
 
@@ -514,6 +514,7 @@ footer section h2 {
 
 .post-content {
     padding: 10px;
+    padding-right: 30px;
 }
 
 aside {

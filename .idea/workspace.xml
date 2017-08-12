@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/templates/views/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="18" />
+              <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -103,31 +103,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="shortcut_article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/views/shortcut_article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mysty.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/mysty.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="519" column="23" lean-forward="false" selection-start-line="519" selection-start-column="23" selection-end-line="519" selection-end-column="23" />
+            <state relative-caret-position="318">
+              <caret line="516" column="20" lean-forward="false" selection-start-line="516" selection-start-column="20" selection-end-line="516" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zzsc.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/zzsc.js">
+      <file leaf-file-name="zzsc.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/zzsc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="137" column="39" lean-forward="false" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="snows.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/snows.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="2346" column="9" lean-forward="false" selection-start-line="2346" selection-start-column="9" selection-end-line="2346" selection-end-column="9" />
+            <state relative-caret-position="76">
+              <caret line="4" column="98" lean-forward="false" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -136,8 +136,8 @@
       <file leaf-file-name="mainboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mainboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="62" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="62" />
+            <state relative-caret-position="349">
+              <caret line="107" column="45" lean-forward="false" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -145,7 +145,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="my.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/my.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
@@ -180,10 +180,11 @@
       <find>span</find>
       <find>content</find>
       <find>img</find>
-      <find>http://sc.chinaz.com/</find>
-      <find>aside</find>
-      <find>overflow</find>
       <find>preventDefault</find>
+      <find>overflow</find>
+      <find>aside</find>
+      <find>http://sc.chinaz.com/</find>
+      <find>widget</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -212,14 +213,14 @@
         <option value="$PROJECT_DIR$/static/css/styles.css" />
         <option value="$PROJECT_DIR$/static/js/zzsc.js" />
         <option value="$PROJECT_DIR$/static/css/lanrenzhijia.css" />
-        <option value="$PROJECT_DIR$/static/css/zzsc.css" />
-        <option value="$PROJECT_DIR$/templates/mainboard.html" />
         <option value="$PROJECT_DIR$/templates/views/homepage.html" />
         <option value="$PROJECT_DIR$/Blog/views.py" />
         <option value="$PROJECT_DIR$/templates/views/shortcut_article.html" />
-        <option value="$PROJECT_DIR$/static/css/mysty.css" />
         <option value="$PROJECT_DIR$/static/js/snows.js" />
         <option value="$PROJECT_DIR$/static/js/my.js" />
+        <option value="$PROJECT_DIR$/templates/mainboard.html" />
+        <option value="$PROJECT_DIR$/static/css/mysty.css" />
+        <option value="$PROJECT_DIR$/static/css/zzsc.css" />
       </list>
     </option>
   </component>
@@ -230,8 +231,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="436" />
-    <option name="y" value="129" />
+    <option name="x" value="606" />
+    <option name="y" value="226" />
     <option name="width" value="1278" />
     <option name="height" value="892" />
   </component>
@@ -292,6 +293,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowYou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowYou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowYou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowYou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,14 +682,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="436" y="129" width="1278" height="892" extended-state="0" />
+    <frame x="606" y="226" width="1278" height="892" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3727422" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37053087" sideWeight="0.5042644" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23152709" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34127843" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34123847" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -854,14 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/zzsc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/bbd629fa/a69f3c1c-39bb-437f-828d-7ac5c053e9e9/Blog_app">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1027,10 +1056,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/snows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="2346" column="9" lean-forward="false" selection-start-line="2346" selection-start-column="9" selection-end-line="2346" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/zzsc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="137" column="39" lean-forward="false" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="62" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="62" />
+        <state relative-caret-position="349">
+          <caret line="107" column="45" lean-forward="false" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1040,7 +1093,7 @@
     <entry file="file://$PROJECT_DIR$/templates/views/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="18" />
+          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -1075,42 +1128,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/shortcut_article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#span#2;n#p#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/mysty.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="519" column="23" lean-forward="false" selection-start-line="519" selection-start-column="23" selection-end-line="519" selection-end-column="23" />
+        <state relative-caret-position="318">
+          <caret line="516" column="20" lean-forward="false" selection-start-line="516" selection-start-column="20" selection-end-line="516" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/zzsc.js">
+    <entry file="file://$PROJECT_DIR$/static/css/zzsc.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="137" column="39" lean-forward="false" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/snows.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="2346" column="9" lean-forward="false" selection-start-line="2346" selection-start-column="9" selection-end-line="2346" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/my.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="4" column="98" lean-forward="false" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
           <folding />
         </state>
       </provider>
