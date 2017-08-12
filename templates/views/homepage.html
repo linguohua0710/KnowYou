@@ -1,0 +1,157 @@
+<section class="content-wrap">
+
+    <nav class="nav-bar navbar-default topnav" role="navigation">
+        <div class="container-fluid" style="margin-left: 15%;">
+            <div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="navbar-brand" href="#"><span>首页</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span>韶华追忆</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span>安全情報</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span>攻城狮</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span>每日哈哈</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span>留言板</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <!-- 主頁面 -->
+            {% block mainbody %}
+            <main class="col-md-8 main-content" style="padding-right: 0;">
+
+                {% for i in list_article %}
+                    {% include "views/shortcut_article.html" %}
+                {% endfor %}
+
+            </main>
+            {% endblock %}
+            <!-- 側邊欄 -->
+            <aside class="col-md-4 sidebar" style="padding-left: 0;">
+
+                <div class="widget">
+                    <h4 class="title">标签</h4>
+
+                    <div id="tagscloud">
+                        <a href="#" class="tagc1" style="left: 109.163px; top: 35.2524px; z-index: 125; opacity: 0.520798;">哈哈</a>
+                        <a href="#" class="tagc2" style="left: 108.126px; top: 31.8458px; z-index: 101; opacity: 0.102323; display: none;">博主很懒哈</a>
+                        <a href="#" class="tagc5" style="left: 39.0143px; top: 39.6235px; z-index: 101; opacity: 0.104428; display: none;">我还没做好^*^</a>
+                        <a href="#" class="tagc2" style="left: 34.1457px; top: 56.5101px; z-index: 129; opacity: 0.6532;">再等等哈^0^</a><a style="left: 105.34px; top: 76.1736px; z-index: 172; opacity: 3.83122;">
+                        </a><a href="#" class="tagc2" style="left: 135.419px; top: 111.369px; z-index: 178; opacity: 4.84275; color: rgb(255, 255, 255); padding: 5px;">让我再想想~</a>
+                        <a href="#" class="tagc1" style="left: 161.698px; top: 77.6975px; z-index: 117; opacity: 0.345116; color: rgb(255, 255, 255); padding: 5px;">没词了^^!</a>
+                        <a href="#" class="tagc2" style="left: 153.108px; top: 54.8727px; z-index: 102; opacity: 0.10767; color: rgb(255, 255, 255); padding: 5px; display: none;">还能写点啥^^</a>
+                        <a href="#" class="tagc5" style="left: 88.9635px; top: 30.5245px; z-index: 103; opacity: 0.120988; display: none;">^0^   ^^!</a>
+                        <a href="#" class="tagc2" style="left: 39.736px; top: 45.3592px; z-index: 102; opacity: 0.113564; display: none;">哈哈</a>
+                        <a href="#" class="tagc2" style="left: 10.1585px; top: 92.9649px; z-index: 101; opacity: 0.102863; display: none;">博主很懒哈</a>
+                        <a href="#" class="tagc5" style="left: 5.14587px; top: 113.158px; z-index: 141; opacity: 1.1155;">再等等哈^0^</a>
+                        <a href="#" class="tagc2" style="left: 37.8966px; top: 123.749px; z-index: 183; opacity: 6.01579;">让我再想想~</a>
+                        <a href="#" class="tagc1" style="left: 116.575px; top: 130.963px; z-index: 186; opacity: 6.80639;">没词了^^!</a>
+                        <a href="#" class="tagc2" style="left: 164.534px; top: 134.648px; z-index: 149; opacity: 1.51471;">还能写点啥^^</a>
+                        <a href="#" class="tagc5" style="left: 167.198px; top: 99.7813px; z-index: 101; opacity: 0.102669; display: none;">没词了^^!</a>
+                        <a href="#" class="tagc2" style="left: 149.271px; top: 51.4153px; z-index: 101; opacity: 0.105001; display: none;">还能写点啥^^</a><a style="left: 120.537px; top: 39.0176px; z-index: 102; opacity: 0.115728; display: none;">
+                        </a><a href="#" class="tagc2" style="left: 34.5857px; top: 49.0954px; z-index: 102; opacity: 0.11152; display: none;">博主很懒哈</a>
+                        <a href="#" class="tagc1" style="left: 6.11869px; top: 74.9053px; z-index: 101; opacity: 0.107438; display: none;">呼叫博主~</a>
+                        <a href="#" class="tagc2" style="left: 39.0564px; top: 176.259px; z-index: 148; opacity: 1.45497;">三更！三更！三更！！！</a>
+                        <a href="#" class="tagc5" style="left: 86.1836px; top: 184.529px; z-index: 163; opacity: 2.67629;">让我再想想~</a>
+                        <a href="#" class="tagc2" style="left: 143.698px; top: 188.12px; z-index: 125; opacity: 0.514445;">博主很懒哈</a>
+                        <a href="#" class="tagc2" style="left: 140.263px; top: 41.6469px; z-index: 102; opacity: 0.110774; display: none;">还能写点啥^^</a>
+                        <a href="#" class="tagc5" style="left: 71.4832px; top: 31.0262px; z-index: 101; opacity: 0.107408; display: none;">让我再想想~</a>
+                        <a href="#" class="tagc2" style="left: 53.4797px; top: 207.473px; z-index: 107; opacity: 0.183057;">三更！三更！三更！！！</a>
+                    </div>
+
+                </div>
+
+                {% comment %}<div class="widget">
+                    <h4 class="title">Music</h4>
+                    <div class="content community">
+                        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="280" height="110" src="//music.163.com/outchain/player?type=0&amp;id=536181158&amp;auto=1&amp;height=90">
+
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h4 class="title">哈哈小视频</h4>
+
+                    {% for i in list_video %}
+                        {% include "views/left_article_test.html" %}
+                    {% endfor %}
+
+                </div>{% endcomment %}
+
+                <div class="widget">
+                    <h4 class="title">社区</h4>
+                    <div class="content community">
+                        <p>QQ群：********</p>
+                        <p>
+                            <a href="#" title="问答社区" target="_blank" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '问答社区'])">
+                                <i class="fa fa-comments"></i> 问答社区
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h4 class="title">推荐排行榜</h4>
+                    <div class="content community">
+                        <ul class="newest-artist">
+                            {% for i in list_advice %}
+                                <li>
+                                    <a href="#"><span>›› </span>{{ i.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h4 class="title">最新留言</h4>
+                    <div class="content community">
+                        <ul class="voice">
+                            {% for i in list_comments %}
+                                {% include "views/comments.html" %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 pagebar">
+                <a href="#"><span class="page">‹‹</span></a>
+                <span class="page now-page">1</span>
+                <a href="#"><span class="page">2</span></a>
+                <a href="#"><span class="page">3</span></a>
+                <a href="#"><span class="page">4</span></a>
+                <a href="#"><span class="page">5</span></a>
+                <a href="#"><span class="page">6</span></a>
+                <a href="#"><span class="page">7</span></a>
+                <a href="#"><span class="page">8</span></a>
+                <a href="#"><span class="page">9</span></a>
+                <a href="#"><span class="page">10</span></a>
+                <a href="#"><span class="page">›</span></a>
+                <a href="#"><span class="page">››</span></a>
+            </div>
+        </div>
+        <br/>
+    </div>
+
+
+</section>

@@ -1,0 +1,56 @@
+{% load dealwithtime %}
+<article class="post">
+    <div class="container">
+        <div class="row col-md-8">
+            <div class="post-head">
+                <h1 class="post-title"  style="font-size: 18px;float:left">
+                    <a href="../../static/img/{{ i.img }}">
+                        【{{ i.category }}】{{ i.title }}
+                    </a>
+                </h1>
+                <br/>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="featured-media row col-md-8">
+            <div class="col-md-4">
+                <a href="../../static/img/{{ i.img }}">
+                    <img src="../../static/img/{{ i.img }}" alt="{{ i.title }}">
+                </a>
+            </div>
+            <div class="col-md-7 post-content">
+                <p>
+                    {{ i.content }}
+                </p>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="row col-md-8">
+            <div class="post-permalink">
+                <a href="#" class="btn btn-default">
+                    阅读全文
+                </a>
+            </div>
+            <footer class="post-footer clearfix"></footer>
+
+            <p class="autor">
+                <span class="lm f_l"><a href="/">{{ i.category }}</a></span>
+                <span class="dtime f_l">{{ i.publish_time | dealwithtime }}</span>
+                <input class="zan_cookie" type="hidden" value="2">
+                <input class="zan_newsid" type="hidden" value="{{ i.id }}">
+                <span class="label_bottom f_r" style="padding-left: 0;margin-right: 75px;">
+                    <a href="javascript:void(0)" onclick="return false;" class="yz_zan" style="">赞（{{ i.pride_times }}）</a>
+                </span>
+                <span class="viewnum f_r">浏览（{{ i.read_times }}）</span>
+                <span class="pingl f_r">
+                    <a href="javascript:void(0)">
+                        <span id="sourceId::421" class="cy_cmt_count">评论（{{ i.resp_times }}）</span>
+                    </a>
+                </span>
+            </p>
+        </div>
+    </div>
+
+</article>
